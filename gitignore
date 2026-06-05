@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Clipboard History Manager — .gitignore
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Runtime data (written to ~/.clipboard_manager/ at runtime) ───────────────
+# These are never inside the repo but listed here as a safety net
+history.json
+settings.json
+app.log
+*.json.bak
+*.tmp
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── PyInstaller build artefacts ───────────────────────────────────────────────
+build/
+dist/
+*.spec
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+*.egg-info/
+*.egg
+dist/
+.eggs/
+
+# ── IDEs & editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ── Logs & exports generated during testing ───────────────────────────────────
+*.log
+clipboard_history_*.xlsx
+clipboard_history_*.txt
+clipboard_history_*.json
+
+# ── pytest / coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
