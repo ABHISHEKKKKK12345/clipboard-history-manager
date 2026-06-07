@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║          Clipboard History Manager  ·  v1.0.0  ·  Production-Ready          ║
+║          Clipboard History Manager  ·  v1.0.0  ·  Production-Ready           ║
 ║          Cross-Platform  |  Thread-Safe  |  Lifecycle-Safe                   ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Author   : Abhishek Srivastava                                              ║
